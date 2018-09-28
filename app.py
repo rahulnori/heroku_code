@@ -32,7 +32,7 @@ def update_twitter():
     # Create dictionary to hold text and label entities
     tweet_dict = {"text": [], "label": []}
 
-    mentions = api.search(q="@rahul_nori Analyze:")
+    mentions = api.search(q="@RahulNori Analyze:")
     print(mentions)
     words = []
     try:
